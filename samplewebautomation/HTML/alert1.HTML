@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<script>
+        function simpleAlert(){
+            alert("It is a Simple Alert!!!")
+            document.getElementById("result").innerHTML="You have performed Click operation on OK button"
+        }
+ 
+        function confirmAlert(){
+            let status1=confirm("Do you want to Delete the Customer?")
+            if(status1){
+                document.getElementById("result").innerHTML="You have performed Click operation on OK button"
+            }else{
+                document.getElementById("result").innerHTML="You have performed Click operation on Cancel button"
+            }
+        }
+        function promptAlert(){
+            let customerName=prompt("enter the Name of teh Customer:")
+            if (customerName==null){
+                document.getElementById("result").innerHTML="You have Clicked on Cancel button"
+            }else if(customerName==""){
+                document.getElementById("result").innerHTML="Without entering any input,You have Clicked on OK button"
+            }else{
+                document.getElementById("result").innerHTML="You have have entered customerName :"+customerName
+            }
+        }
+</script>
+</head>
+<body>
+<h2 align="center">alert(), confirm(), prompt() dialogs</h2>
+<input type="button" value="Execute Alert" onclick="simpleAlert()">
+<br>
+<br>
+<input type="button" value="Execute Confirm" onclick="confirmAlert()">
+<br>
+<br>
+<input type="button" value="Execute Prompt" onclick="promptAlert()">
+<br>
+<br>
+<hr/>
+<h3>Output:</h3>
+<p id="result">Click on any one button to View Result</p>
+</body>
+</html>

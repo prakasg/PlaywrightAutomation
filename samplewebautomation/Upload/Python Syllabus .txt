@@ -1,0 +1,168 @@
+Python Syllabus - Part 1
+1. Download and Install Python [ VS Code/ Antigtavity/ Pycharm]
+2. Environment setup for Python with PyCharm
+3. Python Basic Syntax
+4. Python print Statement
+5. Python Comments
+6. Python Identifiers
+7. Python Keywords
+8. Python Data Types
+9. Python Variables
+10.Python Variable Types
+11.Python Operators
+12.Python import Statement
+13.Python Decision Making
+14.Python if if-else elif
+15.Python Loops
+16.Python for Loop
+17.Python while Loop
+18.Python break Statement
+19.Python continue Statement
+20.Python Numbers
+21.String Operations in Python
+22.Python Tuples
+23.Python Lists  / Python Sets
+24.Python Dictionary
+25.Functions returning value/Not returning Value  [DRY]
+26.Python Variable Scope
+27.Creating Modules and importing Modules
+28.Python Date & Time
+29.File Operations in Python(File I/O)
+30.Exception Handling in Python
+31.Perform Keyborad operation using WScript.Shell in Python
+
+Python Syllabus - Part 2
+1. OOPS concept in Python
+2. Python Classes & Objects
+3. Constructor in Class
+4. Instance Members in Class
+5. Encapsulation
+6. Static Members in Class
+7. Inheritance in Python
+8. Types of Inheritance
+9. Method Overriding
+10. Polymorphism
+11. Access Specifier
+ 
+PyTest Syallabus:
+-----------------------------
+1. PyTest Introduction
+2. Assertions
+3. Fixtures
+4. Parameterization
+5. Markers
+6. Test Execution
+7. Hooks
+8. Reports
+ 
+
+Playwright Syllabus:
+-------------------------
+Module 1:
+Download and Install Python
+Download and Install Visual Studio Code/ Antigtavity
+Installing Playwright in Visual Studio Code / Antigtavity
+Write Playwright Tests using Function
+Write First Playwright Tests With Basic Assertions
+Run single and multiple Playwright tests 
+Test Hooks - beforeEach, afterEach, beforeAll & afterAll
+ 
+Module 2:
+Interact With Web Element In Playwright
+Write Login and Logout Test in Playwright 
+Built-In Locators in Playwright 
+Locating Web Elements using Xpath
+Locating Web Elements using CSS
+Write End-to-End Scenarios in Playwright
+ 
+ 
+Module 3:
+Record & Playback Scripts In Playwright with Codegen
+ 
+Module 4:
+Configure GitHub SSH and Push Playwright Tests
+Page Object Model In Playwright With  Python
+ 
+Module 5:
+How to Handle Text Fields, Checkbox, Radio Buttons
+Get Text and Verify Text In Playwright
+Maximize Browser Window using Viewport In Playwright
+How To Take Screenshots, Videos and Trace Viewer in Playwright
+How To Retry Failed Test Cases in Playwright
+Perform Mouse Hover on UI Elements in Playwright
+Perform Mouse Right Click/Context Click/Double Click Action
+ 
+ 
+Module 6:
+How to Handle Alerts [alert(),confirm(), prompt()] in Playwright
+How to handle Dropdown and Verify Dropdown Values
+How to handle Multi Select DropDown
+Upload Single or Multiple Files In Playwright With JavaScript
+Handle Keyboard Actions in Playwright
+Handle Autocomplete and Autosuggestion in Playwright
+Handle Frames and iFrames in Playwright
+Handle Inner/Nested Frames in Playwright
+Handle WebTable and Pagination Table in Playwright
+ 
+Module 7:
+Browser and Browser Context in Playwright
+handle Multiple Pages/Windows in Playwright
+Handle Popups or multiple tabs or Switch To Different Tabs or Popups
+Handle Dynamic Network Call in Playwright
+Handle Date Pickers/Calendars in Playwright
+ 
+Module 8:
+Grouping Tests - Describe Block in Playwright
+How Apply Annotations and Tag playwright tests
+Parametrize the Test data from JSON Files
+Generate List, Dot, JSON, JUnit & HTML Reporters
+Generate Allure Reports in Playwright
+ 
+Module 9:
+Behave BDD Cucumber Automation Framework Design in Playwright
+   1. Install Cucumber
+   2. Explore Gherkin Language
+   3. Create Feature Files
+   4. Create Step Definition Files
+   5.  Integrate Hooks 
+   6. Filtering which scenarios run
+   7. Retrying failed scenarios
+   8. Parallel running
+   
+ 
+Module 10:
+Postman Restful API Testing
+    1. Download and install the Postman Tool
+    2. Understanding GET/POST/PUT/PATCH/DEELTE HTTP Methods
+    3. In Postman Create Collections and Add API Requests
+	
+    4. For Each Execution of GET/POST/PUT/PATCH/DEELTE HTTP Methods
+         Validate in Database
+    5. Validate Responses in Postman [Snippets]
+    6. Understanding JSON Files
+    7. Schema Validation in Postman
+    8. How to run the Collections
+ 
+Module 11:
+Playwright Restful API Automation
+    . Configure the Environment for Swagger
+    . Write Test on POST HTTP Request
+    . Write Test on GET HTTP Request
+    . Write Test on PUT HTTP Request
+    . Write Test on PATCH HTTP Request
+    . Write Test on DELETE HTTP Request
+    . Write Test on HEAD HTTP Request
+    . Write End-To-End Scenarios
+    . Validate status code in Playwright
+    . Validate api response in Playwright
+ 
+ 
+Module 12:
+Integrate Playwright Tests With Jenkins
+Explore LLM, Agent and MCP Server
+GitHub Copilot Integration with VS Code
+Write and Execute Playwright Tests using GitHub Copilot and MCP
+Write and Execute Fetching Records from Database using GitHub Copilot and MCP
+n8n Framework  [Agentic]
+ 
+ 

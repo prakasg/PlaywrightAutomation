@@ -1,0 +1,60 @@
+// starts with : It provides true if string availalbe at beginning
+// ends with : It provides true if string availalbe at end
+// includes : It provides true if string availalbe 
+let str1="Bangalore is a capital city of Karnataka"
+console.log(str1.startsWith("Bangalore"));  // true
+console.log(str1.endsWith("Karnataka"));  // true
+console.log(str1.includes("capital"));  // true
+console.log("--------------------------------");
+// padStart : It appends number of characters at first
+let str2="Welcome"
+console.log(str2.padStart(10,"%"));
+ 
+console.log("--------------------------------");
+// padEnd : It appends number of characters at end
+let str12="Welcome"
+console.log(str12.padEnd(15,"%"));
+
+// split : based on delimeter it splits teh given string, by default it takes space as delimeter
+let str10="Bangalore and Mysore"
+console.log(str10.split(" "));  // [ 'Bangalore', 'and', 'Mysore' ]
+console.log("-----------------------");
+// repeat : It repeats teh given string based on number of occurance
+let str11="Welcome"
+console.log(str11.repeat(5));  // WelcomeWelcomeWelcomeWelcomeWelcome
+console.log("-----------------------");
+//replace: It searches and replaces
+let str3="It is a new palace, it is in mysore"
+console.log(str3.replace("is","was")); // It was a new palace, it is in mysore
+console.log(str3.replaceAll("is","was")); // It was a new palace, it was in mysore
+console.log("-----------------------");
+// trimStart operation : It removes blank spaces at left side
+let str4="   WELCOME   "
+console.log("Before Left trim, the Length of String :"+str4.length);
+console.log(str4.trimStart());
+console.log("After Left trim, the Length of String :"+str4.trimStart().length);
+console.log("-----------------------");
+// trimEnd operation : It removes blank spaces at right side
+let str5="   WELCOME   "
+console.log("Before Right trim, the Length of String :"+str5.length);
+console.log(str5.trimEnd());
+console.log("After Left trim, the Length of String :"+str5.trimEnd().length);
+console.log("-----------------------");
+// trim operation : It removes blank spaces at both side
+let str6="   WELCOME   "
+console.log("Before trim, the Length of String :"+str6.length);
+console.log(str5.trim());
+console.log("After trim, the Length of String :"+str6.trim().length);
+console.log("-----------------------");
+ 
+// concat -> It combines
+let str13="JavaScript"
+console.log(str13.concat(" Language"));
+console.log("--------------------------");
+//slice: It extracts the sub string based on range
+let str14="Javascript Programming Language"
+console.log(str14.slice(11,23));
+console.log("--------------------------");
+//substring: It extracts the sub string based on range
+let str15="Javascript Programming Language"
+console.log(str15.substring(11,23));

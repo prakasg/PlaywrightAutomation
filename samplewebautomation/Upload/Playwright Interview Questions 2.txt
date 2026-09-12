@@ -1,0 +1,133 @@
+Playwright Interview Questions:
+------------------------------
+1. How do you launch a specific browser in headed mode?
+2. Difference between locator() and query_selector()?
+3. How to handle alerts in Python Playwright?
+4. How to handle Frames in Python Playwright?
+5. How to find number of links in the Web Page?
+6. How to find number of links in web page those names ends with automation?
+7. If there are 10 button having same attributes, how to click on 5th Button?
+8. Explain the built-in locators in Python Playwright?
+9. How do you handle dynamic elements in a Web Page?
+10. How do you wait for page load or API execution has completed?
+11. How to select items from the drop down?
+12. How to upload a Single File?
+13. How to upload the multiple Files?
+14. How to perform or apply keyboard action on Web Application?
+15. How to perform multiple Key Combination?
+16. How to validate Browser title, Browser URL and text on Element in Python Playwright?
+17. How to Browser, Context and Page in Python Playwright?
+18. How to handle Tabbed browsers in Python Playwright?
+19. How to Handle Popup Browsers or child Browsers in Python Playwright?
+20. How to Capture Videos and Screenshots in Python Playwright?
+21. How to capture Traces in Python Playwright?
+22. How to apply or perform Retries on Failed Tests using Python Playwright?
+23. How to apply Viewport in Python Playwright?
+24. How do you execute JavaScript in Python Playwright?
+25. How do you run Playwright tests with Pytest?
+26. How to move mouse on a specific Element in a Web Page?
+27. How to perform Scroll operation using Python Playwright?
+28. What is the difference between Playwright and Selenium architecture?
+29. What is the difference between sync and async Playwright APIs in Python?
+30. What is strict mode in Playwright locators?
+31. How do you generate Allure or HTML reports for Playwright tests?
+32. How to group Tests and How to Execute them?
+
+Pytest Interview Questions:
+---------------------------
+1. How to install Pytest and How to update Pytest?
+2. How do you execute all tests?
+3. How do you execute a specific file?
+4. How do you execute a specific test method?
+5. What is the purpose of yield in fixtures?
+6. What is a fixture in Pytest?
+7. How to apply existing fixture into a test?
+8. What are fixture scopes? how does they work?
+9. What is autouse fixture? how does it work?
+10. What is conftest.py? what is the functionality of conftest.py file?
+11. How to run same test with multiple inputs of test data?
+12. List out some of the in-built markers?
+13. Can we write an user defined Marker? How to write it?
+14. How to skip the Tests using in-built marker?
+15. How do you mark expected failures in pytest?
+16. How to apply assertions for Pytest testcases?
+17. What are Hooks in Pytest and How to apply Hooks for the tests?
+18. How to Generate Allure Reports?
+19. How to Perform below action during tests execution :
+    (a) Show print statements
+    (b) Verbose mode
+    (c) Stop after first failure
+    (d) Run failed tests only
+    (e) Run tests matching keyword
+20. How do you run pytest tests in parallel?
+21. what is the difference between fixture and hook?
+22. What is pytest.ini? What is the purpose of pytest.ini File?
+
+Behave Framework Interview Questions:
+-----------------------------------
+1. What is Gherkin, list Gherkin keywords and their purpose?
+2. What is Behave ? what are the advantages of Behave?
+3. Write a typical feature File for Login and Logout Scenarios?
+4. Explain Behave Framework Structure ?
+5. If a feature File contains 'N' number of Scenarios, What can be the execution order of Each Scenarios?
+6. If features Folder contains 'N' number of feature Files, Waht can be the execution order of Each feature Files?
+7. What is Background Keyword? what is teh purpose of Background keyword?
+8. How to pass data/value from one step to another Steps available in Feature File?
+9. What is context in Behave?
+10. How do you execute Behave tests?
+11. What is tags? How to Apply Tags in feature File and How to execute behave tests at Tag Level?
+12. What is environment.py? What does it perform?
+13. What are hooks in Behave? List the Hooks available in Behave?
+14. What is What is Scenario Outline and Examples keyword?
+15. How do you implement Page Object Model with Behave? How do you share page object between steps?
+
+Postman Interview Questions:
+----------------------------
+1. What is the difference between POST and PUT
+2. What is the difference between PUT and PATCH
+3. List the Successful Status Codes 2XX?
+4. Difference between 401 and 403?
+5. What is Collection and How to export and import Collection?
+6. How to achieve API Chaining in Postman?
+7. How to create a environment variable and How to access it?
+8. What are Pre-request Scripts?? How to provide random test data or Dynamic test data to Request Body?
+9. How do you validate response status code?
+10. How do you validate response time?
+11. How do you validate response body?
+12. How do you achieve data-driven testing in Postman using CSV File?
+13. If API Response returns 500 error. How do you troubleshoot?
+14. How to perform Schema Validation in Postman?
+
+Restful API Playwright Interview Questions:
+-------------------------------------------
+1. What is APIRequestContext?
+2. How do you send a GET request in Playwright and How do you validate the Response?
+3. How do you send a POST request in Playwright and How do you validate the Response?
+4. How do you send a PUT request in Playwright and How do you validate the Response?
+5. How do you send a PATCH request in Playwright and How do you validate the Response?
+6. How do you send a DELETE request in Playwright and How do you validate the Response?
+7. In FakestoreAPI Products Response, find Number of Products available?
+8. In FakestoreAPI Products Response, Display title of Each Product?
+9. In FakestoreAPI Products Response, find sum of all available Prices?
+10. How do you provide Bearer Token Authentication in Headers?
+11. How do you validate Response Headers and Response Body?
+12. If API returns 401. What would you check?
+13. If API returns 500. What would you investigate?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
